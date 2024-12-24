@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header{
+    padding: 20px 60px;
+    background-image: url(./img/photo5.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1530px;
+    margin: 0 auto;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    margin-top: 40px;
+}
+.navList{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin-left: 60px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    transition: .6s ease;
+}
+a:hover{
+    color: white;
+}
+.change{
+    outline: none;
+    border: none;
+    background: #ffc158;
+    font-size: 20px;
+    font-weight: 600;
+    transition: .6s ease;
+    margin-left: 20px;
+}
+.change:hover{
+    color: white;
+}
+.title{
+    color: black;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    margin: 60px 0px 30px 0px;
+}
+.paragraph{
+    color: black;
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.wrapper{
+    max-width: 1530px;
+    margin: 0 auto;
+    padding-top: 144px;
+}
+.wrapperList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapperItem{
+    text-align: center;
+    padding: 0px 60px;
+}
+.itemImg{
+    background-image: url(./img/photo6.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 175px;
+    height: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 39px;
+}
+.itemText{
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.itemLink{
+    font-size: 20px;
+    color: black;
+    font-weight: 800;
+}
+.just{
+    max-width: 1530px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/photo8.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.footer{
+    max-width: 1530px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 200px 0px 80px;
+    background-image: url(./img/photo7.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footerList{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.footerItem{
+    padding: 0px 30px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 800;
+}
